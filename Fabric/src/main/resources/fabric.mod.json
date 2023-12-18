@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "id": "zombieproofdoors",
-  "version": "3.1",
+  "version": "3.2",
 
   "name": "Zombie Proof Doors",
   "description": "Prevents zombies from targeting and breaking down doors.",
   "authors": [ "Rick South" ],
   "contact": {
-    "homepage": "https://curseforge.com/minecraft/mc-mods/zombie-proof-doors",
-    "sources": "https://github.com/ricksouth/serilum-mc-mod-sources/tree/main/sources/Zombie%20Proof%20Doors",
-    "issues": "https://github.com/ricksouth/serilum-mc-mods/labels/Mod:%20Zombie%20Proof%20Doors"
+    "homepage": "https://serilum.com/mod/zombie-proof-doors",
+    "sources": "https://github.com/Serilum/Zombie-Proof-Doors",
+    "issues": "https://github.com/Serilum/.issue-tracker/labels/Mod:%20Zombie%20Proof%20Doors"
   },
 
   "license": "All Right Reserved",
@@ -23,7 +23,7 @@
     "fabric": "*",
     "minecraft": ">=1.20",
     "java": ">=17",
-    "collective": ">=7.3"
+    "collective": ">=7.21"
   },
 
   "custom": {

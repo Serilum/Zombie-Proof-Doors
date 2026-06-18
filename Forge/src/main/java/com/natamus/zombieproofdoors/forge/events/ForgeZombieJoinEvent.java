@@ -6,7 +6,6 @@ import net.minecraftforge.eventbus.api.bus.BusGroup;
 import net.minecraftforge.eventbus.api.listener.SubscribeEvent;
 
 import java.lang.invoke.MethodHandles;
-import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 
 public class ForgeZombieJoinEvent {
 	public static void registerEventsInBus() {

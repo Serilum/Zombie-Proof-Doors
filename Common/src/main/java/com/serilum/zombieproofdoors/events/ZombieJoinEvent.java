@@ -1,4 +1,4 @@
-package com.natamus.zombieproofdoors.events;
+package com.serilum.zombieproofdoors.events;
 
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.monster.zombie.Zombie;

@@ -1,4 +1,4 @@
-package com.natamus.zombieproofdoors;
+package com.serilum.zombieproofdoors;
 
 
 public class ModCommon {

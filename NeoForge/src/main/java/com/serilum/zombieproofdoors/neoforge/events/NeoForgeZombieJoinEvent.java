@@ -1,6 +1,6 @@
-package com.natamus.zombieproofdoors.neoforge.events;
+package com.serilum.zombieproofdoors.neoforge.events;
 
-import com.natamus.zombieproofdoors.events.ZombieJoinEvent;
+import com.serilum.zombieproofdoors.events.ZombieJoinEvent;
 import net.neoforged.neoforge.event.entity.EntityJoinLevelEvent;
 import net.neoforged.bus.api.SubscribeEvent;
 

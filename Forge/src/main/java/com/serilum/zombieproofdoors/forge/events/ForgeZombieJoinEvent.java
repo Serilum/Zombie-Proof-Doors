@@ -1,12 +1,11 @@
-package com.natamus.zombieproofdoors.forge.events;
+package com.serilum.zombieproofdoors.forge.events;
 
-import com.natamus.zombieproofdoors.events.ZombieJoinEvent;
+import com.serilum.zombieproofdoors.events.ZombieJoinEvent;
 import net.minecraftforge.event.entity.EntityJoinLevelEvent;
 import net.minecraftforge.eventbus.api.bus.BusGroup;
 import net.minecraftforge.eventbus.api.listener.SubscribeEvent;
 
 import java.lang.invoke.MethodHandles;
-import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 
 public class ForgeZombieJoinEvent {
 	public static void registerEventsInBus() {

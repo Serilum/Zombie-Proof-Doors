@@ -1,9 +1,9 @@
-package com.natamus.zombieproofdoors;
+package com.serilum.zombieproofdoors;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.zombieproofdoors.events.ZombieJoinEvent;
-import com.natamus.zombieproofdoors.util.Reference;
+import com.serilum.zombieproofdoors.events.ZombieJoinEvent;
+import com.serilum.zombieproofdoors.util.Reference;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerEntityEvents;
 import net.minecraft.server.level.ServerLevel;

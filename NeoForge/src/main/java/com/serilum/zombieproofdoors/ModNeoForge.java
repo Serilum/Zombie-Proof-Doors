@@ -1,9 +1,9 @@
-package com.natamus.zombieproofdoors;
+package com.serilum.zombieproofdoors;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.zombieproofdoors.neoforge.events.NeoForgeZombieJoinEvent;
-import com.natamus.zombieproofdoors.util.Reference;
+import com.serilum.zombieproofdoors.neoforge.events.NeoForgeZombieJoinEvent;
+import com.serilum.zombieproofdoors.util.Reference;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
@@ -26,7 +26,7 @@ public class ModNeoForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-   		NeoForge.EVENT_BUS.register(NeoForgeZombieJoinEvent.class);
+		NeoForge.EVENT_BUS.register(NeoForgeZombieJoinEvent.class);
 	}
 
 	private static void setGlobalConstants() {
